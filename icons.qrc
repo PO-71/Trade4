@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/add.png</file>
+        <file>icons/del.png</file>
+        <file>icons/directory.png</file>
+        <file>icons/doc.png</file>
+        <file>icons/report.png</file>
+        <file>icons/info.png</file>
+        <file>icons/update.png</file>
+        <file>icons/trade.ico</file>
+        <file>icons/reset.png</file>
+    </qresource>
+</RCC>
