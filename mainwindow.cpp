@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     addWindow = new AddWindow();
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("C:\\Qt\\Qt5.7.1\\Projects\\Trade4\\db\\trade.sqlite");
+    db.setDatabaseName(QApplication::applicationDirPath() + "/trade.sqlite");
     if(!db.open())
         QMessageBox::critical(this, tr("ERROR!"), db.lastError().text());
     else
